@@ -5,5 +5,4 @@
 # reverse3([7, 0, 0]) → [0, 0, 7]
 
 def reverse3(nums):
-  nums.reverse()
-  return nums
+  return nums[::-1]
