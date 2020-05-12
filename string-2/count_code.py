@@ -5,11 +5,12 @@
 # count_code('codexxcode') → 2
 # count_code('cozexxcope') → 2
 
-def count_code(str):
-  count = 0
-  
-  for i in range(len(str)):
-    if str[i:i+2] == 'co' and str[i+3:i+4] == "e":
-      count += 1
-  
-  return count
+
+def count_code(string):
+    count = 0
+
+    for i in range(len(string)):
+        if string[i:i + 2] == 'co' and string[i + 3:i + 4] == "e":
+            count += 1
+
+    return count

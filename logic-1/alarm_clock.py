@@ -7,11 +7,12 @@
 # alarm_clock(5, False) → '7:00'
 # alarm_clock(0, False) → '10:00'
 
+
 def alarm_clock(day, vacation):
     weekdays = "10:00" if vacation else "7:00"
     weekends = "off" if vacation else "10:00"
     
-    if 1 <=  day and day <= 5:
+    if 1 <= day <= 5:
         return weekdays
                 
     return weekends

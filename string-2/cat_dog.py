@@ -4,15 +4,16 @@
 # cat_dog('catcat') → False
 # cat_dog('1cat1cadodog') → True
 
-def cat_dog(str):
-  count_cat = 0
-  count_dog = 0
-  
-  for i in range(len(str)):
-    if str[i:i+3] == "cat":
-      count_cat += 1
-    
-    if str[i:i+3] == "dog":
-      count_dog += 1
-  
-  return count_cat == count_dog
+
+def cat_dog(string):
+    count_cat = 0
+    count_dog = 0
+
+    for i in range(len(string)):
+        if string[i:i + 3] == "cat":
+            count_cat += 1
+
+        if string[i:i + 3] == "dog":
+            count_dog += 1
+
+    return count_cat == count_dog

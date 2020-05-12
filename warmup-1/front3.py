@@ -5,8 +5,9 @@
 # front3('Chocolate') → 'ChoChoCho'
 # front3('abc') → 'abcabcabc'
 
-def front3(str):
-  if len(str) < 3:
-    return str * 3
-  else:
-    return str[:3] * 3
+
+def front3(string):
+    if len(string) < 3:
+        return string * 3
+    else:
+        return string[:3] * 3

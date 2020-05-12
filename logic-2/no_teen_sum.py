@@ -9,14 +9,16 @@
 # no_teen_sum(2, 13, 1) → 3
 # no_teen_sum(2, 1, 14) → 3
 
+
 def no_teen_sum(a, b, c):
-  return fix_teen(a) + fix_teen(b) + fix_teen(c)
+    return fix_teen(a) + fix_teen(b) + fix_teen(c)
+
 
 def fix_teen(n):
-  if (n in range(13, 20)):
-    if (n == 15 or n == 16):
-      return n
+    if n in range(13, 20):
+        if n == 15 or n == 16:
+            return n
+        else:
+            return 0
     else:
-      return 0 
-  else:
-    return n
+        return n

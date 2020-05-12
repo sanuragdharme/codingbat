@@ -7,9 +7,12 @@
 # centered_average([1, 1, 5, 5, 10, 8, 7]) → 5
 # centered_average([-10, -4, -2, -4, -2, 0]) → -3
 
-def centered_average(nums):
-  if len(nums) >= 3:
-    maxn = max(nums)
-    minn = min(nums)
 
-  return (sum(nums) - minn - maxn) / (len(nums) - 2)
+def centered_average(nums):
+    min_num = max_num = 0
+
+    if len(nums) >= 3:
+        max_num = max(nums)
+        min_num = min(nums)
+
+    return (sum(nums) - min_num - max_num) / (len(nums) - 2)

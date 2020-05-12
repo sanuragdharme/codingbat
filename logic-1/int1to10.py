@@ -5,8 +5,9 @@
 # in1to10(11, False) → False
 # in1to10(11, True) → True
 
+
 def in1to10(n, outside_mode):
-  if outside_mode:
-      return n <= 1 or n >= 10
-        
-  return 1 <= n and n <= 10
+    if outside_mode:
+        return 1 >= n or n >= 10
+
+    return 1 <= n <= 10

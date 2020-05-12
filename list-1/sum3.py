@@ -4,5 +4,6 @@
 # sum3([5, 11, 2]) → 18
 # sum3([7, 0, 0]) → 7
 
+
 def sum3(nums):
-  return nums[0] + nums[1] + nums[2]
+    return nums[0] + nums[1] + nums[2]

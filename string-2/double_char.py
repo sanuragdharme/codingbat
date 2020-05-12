@@ -4,10 +4,11 @@
 # double_char('AAbb') → 'AAAAbbbb'
 # double_char('Hi-There') → 'HHii--TThheerree'
 
-def double_char(str):
-  string = ''
-  
-  for i in str:
-    string += i * 2
-  
-  return string
+
+def double_char(string):
+    new_string = ''
+
+    for i in string:
+        new_string += i * 2
+
+    return new_string

@@ -4,8 +4,9 @@
 # string_splosion('abc') → 'aababc'
 # string_splosion('ab') → 'aab'
 
-def string_splosion(str):
-  result = ''
-  for i in range(len(str)):
-    result = result + str[:i+1]
-  return result
+
+def string_splosion(string):
+    result = ''
+    for i in range(len(string)):
+        result = result + string[:i + 1]
+    return result

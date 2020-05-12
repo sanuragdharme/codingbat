@@ -5,8 +5,9 @@
 # sum2([1, 1]) → 2
 # sum2([1, 1, 1, 1]) → 2
 
+
 def sum2(nums):
-  if len(nums) < 2:
-      return sum(nums)
-        
-  return nums[0] + nums[1]
+    if len(nums) < 2:
+        return sum(nums)
+
+    return nums[0] + nums[1]

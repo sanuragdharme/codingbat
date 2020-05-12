@@ -4,9 +4,10 @@
 # sum_double(3, 2) → 5
 # sum_double(2, 2) → 8
 
+
 def sum_double(a, b):
-  total = a + b
-  
-  if a == b:
-    return total * 2
-  return total
+    total = a + b
+
+    if a == b:
+        return total * 2
+    return total

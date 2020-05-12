@@ -6,7 +6,8 @@
 # end_other('AbC', 'HiaBc') → True
 # end_other('abc', 'abXabc') → True
 
+
 def end_other(a, b):
-  a = a.lower()
-  b = b.lower()
-  return (b.endswith(a) or a.endswith(b))
+    a = a.lower()
+    b = b.lower()
+    return b.endswith(a) or a.endswith(b)

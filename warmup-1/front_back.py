@@ -4,8 +4,8 @@
 # front_back('a') → 'a'
 # front_back('ab') → 'ba'
 
-def front_back(str):
-  if len(str) <= 1:
-    return str
-  else:
-    return str[-1] + str[1:-1] + str[0]
+
+def front_back(string):
+    if len(string) <= 1:
+        return string
+    return string[-1] + string[1:-1] + string[0]

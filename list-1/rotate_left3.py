@@ -4,5 +4,6 @@
 # rotate_left3([5, 11, 9]) → [11, 9, 5]
 # rotate_left3([7, 0, 0]) → [0, 0, 7]
 
+
 def rotate_left3(nums):
-  return nums[1:] + nums[0:1]
+    return nums[1:] + nums[0:1]

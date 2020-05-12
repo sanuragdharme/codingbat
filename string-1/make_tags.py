@@ -6,5 +6,6 @@
 # make_tags('i', 'Hello') → '<i>Hello</i>'
 # make_tags('cite', 'Yay') → '<cite>Yay</cite>'
 
+
 def make_tags(tag, word):
-  return "<{}>{}</{}>".format(tag, word, tag)
+    return "<{}>{}</{}>".format(tag, word, tag)

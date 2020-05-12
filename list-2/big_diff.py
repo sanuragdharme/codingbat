@@ -5,11 +5,12 @@
 # big_diff([7, 2, 10, 9]) → 8
 # big_diff([2, 10, 7, 2]) → 8
 
+
 def big_diff(nums):
-  max1 = min1 = 0
+    max1 = min1 = 0
 
-  if len(nums) > 1:
-    max1 = max(nums)
-    min1 = min(nums)
+    if len(nums) > 1:
+        max1 = max(nums)
+        min1 = min(nums)
 
-  return max1 - min1
+    return max1 - min1

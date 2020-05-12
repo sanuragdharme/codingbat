@@ -4,10 +4,11 @@
 # string_bits('Hi') → 'H'
 # string_bits('Heeololeo') → 'Hello'
 
-def string_bits(str):
-  new_string = ''
-  for i in range(len(str)):
-    if i % 2 == 0:
-      new_string += str[i]
-  
-  return new_string
+
+def string_bits(string):
+    new_string = ''
+    for i in range(len(string)):
+        if i % 2 == 0:
+            new_string += string[i]
+
+    return new_string

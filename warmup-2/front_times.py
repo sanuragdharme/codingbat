@@ -5,8 +5,9 @@
 # front_times('Chocolate', 3) → 'ChoChoCho'
 # front_times('Abc', 3) → 'AbcAbcAbc'
 
-def front_times(str, n):
-  if len(str) < 3:
-    return str * n
-  else:
-    return str[:3] * n
+
+def front_times(string, n):
+    if len(string) < 3:
+        return string * n
+    else:
+        return string[:3] * n

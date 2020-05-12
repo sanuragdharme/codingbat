@@ -4,5 +4,6 @@
 # first_half('HelloThere') → 'Hello'
 # first_half('abcdef') → 'abc'
 
-def first_half(str):
-  return str[:len(str) / 2]
+
+def first_half(string):
+    return string[:len(string) / 2]
